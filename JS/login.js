@@ -8,7 +8,7 @@ var password = document.getElementById("password");
 btn.addEventListener("click", function (event) {
   event.preventDefault(); // Mencegah pengiriman formulir secara default dengan metode GET
 
-  fetch("Ini diganti dengan link dari railway atau app sejenis./login", {
+  fetch("https://crystal-curly-crocus.glitch.me/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

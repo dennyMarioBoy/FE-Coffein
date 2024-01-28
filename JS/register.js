@@ -23,7 +23,7 @@ function register(event) {
   }
 
   // Mengeksekusi permintaan HTTP POST ke server untuk melakukan registrasi
-  fetch("Ini diganti dengan link dari railway atau app sejenis./register", {
+  fetch("https://crystal-curly-crocus.glitch.me/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
